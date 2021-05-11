@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "ESNEXT",
+    "module": "commonjs",
+    "lib": [
+      "ESNext"
+    ],
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    //"strict": true, // this is wel... umm....
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "server/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
